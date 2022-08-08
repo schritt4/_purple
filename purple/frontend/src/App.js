@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Searching from './pages/searching/Searching';
 import Map from './pages/map/Map'; 
 import Listing from './pages/listing/Listing';
+import CurationDetail from './pages/curation/CurationDetail'; 
 import React from 'react'; 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/searching" element={<Searching/>} />
             <Route path="/map" element={<Map />} />
-            <Route path="/listing" element={<Listing/>} />
+            <Route path="/listing" element={<Listing />} />
+            <Route path="/curation/:id" element = {<CurationDetail/>} />
           </Routes>
         </>
       </BrowserRouter>

@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BodyWrapper from "../../components/Bodywrapper";
 import styled from "styled-components";
